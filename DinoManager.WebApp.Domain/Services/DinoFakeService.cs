@@ -1,11 +1,6 @@
 ﻿using DinoManager.WebApp.Domain.Entities;
 using DinoManager.WebApp.Domain.Queries;
 using DinoManager.WebApp.Domain.Repositories;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DinoManager.WebApp.Domain.Services
 {
