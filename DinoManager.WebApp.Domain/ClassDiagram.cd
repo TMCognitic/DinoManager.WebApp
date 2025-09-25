@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Entities (Domain)&#xD;&#xA;">
+    <Position X="0.5" Y="0.5" Height="0.344" Width="1.533" />
+  </Comment>
+  <Comment CommentText="Queries (Domain)&#xD;&#xA;">
+    <Position X="2.76" Y="0.51" Height="0.344" Width="1.533" />
+  </Comment>
+  <Comment CommentText="Repositories (Domain)&#xD;&#xA;">
+    <Position X="0.542" Y="3.719" Height="0.344" Width="1.533" />
+  </Comment>
+  <Comment CommentText="Services (Domain)&#xD;&#xA;">
+    <Position X="5.25" Y="3.75" Height="0.344" Width="1.533" />
+  </Comment>
+  <Comment CommentText="Tools.Cqs">
+    <Position X="6.552" Y="0.5" Height="0.344" Width="1.533" />
+  </Comment>
+  <Class Name="DinoManager.WebApp.Domain.Queries.GetAllDinoQuery" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Queries\GetAllDinoQuery.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DinoManager.WebApp.Domain.Entities.Dino">
+    <Position X="0.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAgAAQAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Entities\Dino.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DinoManager.WebApp.Domain.Services.DinoFakeService" BaseTypeListCollapsed="true">
+    <Position X="5.25" Y="4.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\DinoFakeService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="DinoManager.WebApp.Domain.Repositories.IDinoRepository">
+    <Position X="0.5" Y="4.5" Width="3.25" />
+    <InheritanceLine Type="Tools.Cqs.Queries.IQueryHandler&lt;TQuery, TResult&gt;" ManuallyRouted="true">
+      <Path>
+        <Point X="7.875" Y="2.562" />
+        <Point X="7.875" Y="3.469" />
+        <Point X="2.125" Y="3.469" />
+        <Point X="2.125" Y="4.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\IDinoRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Tools.Cqs.Queries.IQueryDefinition&lt;TResult&gt;" Collapsed="true">
+    <Position X="6.5" Y="1" Width="2.25" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Tools.Cqs.Queries.IQueryHandler&lt;TQuery, TResult&gt;" Collapsed="true">
+    <Position X="6.5" Y="2" Width="2.75" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
